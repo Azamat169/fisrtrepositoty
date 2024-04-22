@@ -1,0 +1,292 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; */
+
+.header {
+    max-width: 1290px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 15px 0;
+    font-weight: 700;
+}
+
+.header-bottom {
+    border-bottom: 1px solid #c2c2c2;
+}
+
+.logo-img {
+    display: block;
+    width: 114px;
+    height: 38px;
+    margin-right: 20px;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.logo-text,
+.logo-text1 {
+    font-size: 16px;
+    color: black;
+    padding-right: 20px;
+}
+
+.nav {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    align-items: center;
+    font-size: 16px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-btn {
+    border: none;
+    background-color: #fff;
+    border: 1px solid;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 15px 30px;
+    align-items: center;
+}
+
+.page {
+    padding: 40px 0;
+    position: relative;
+}
+
+.wrap {
+    max-width: 1290px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+
+.money {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+
+}
+
+.money-img {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.title-main {
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 50px;
+}
+
+.text-main, .title-text  {
+    font-size: 18px;
+    line-height: 25px;
+    width: 400px;
+}
+
+.titile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.boost{
+    position: relative;
+    bottom: 50px;
+}
+.boost h1{
+    font-size: 36px;
+    line-height: 43px;
+    
+}
+.boost p{
+    font-size: 18px;
+    line-height: 26px;
+    width: 439px;
+    
+}
+.care h1{
+    font-size: 36px;
+    line-height: 43px;
+}
+.care p{
+    font-size: 18px;
+    line-height: 26px;
+    width: 480px;
+}
+.container{
+    max-width: 1290px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;  
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+   
+
+}
+
+.cachback h1{
+    font-size: 36px;
+    font-weight: normal;
+    line-height: 43px;
+    text-align: center;  
+}
+.cachback p{
+    width: 584px;
+    font-size: 18px;
+    line-height: 25px;
+}
+.cachback-btn{
+    display: flex;
+    justify-content: center;
+    border: none;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+.partners{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 90px;
+    align-items: center;
+}
+.zen{
+    width: 480px;
+    position: relative;
+    bottom: 70px;
+}
+.zen h1{
+    font-size: 36px;
+    line-height: 43px;
+}
+.zen p{
+    font-size: 18px;
+    line-height: 25px;
+}
+.pay a{
+   margin-right: 20px;
+   align-items: center;
+}
+.shop{
+    width: 480px;
+}
+.shop h1{
+    font-size: 36px;
+    line-height: 43px;   
+}
+.shop p{
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.box-footer{
+    padding: 30px 0;
+}
+.table{
+    box-sizing: border-box;
+    width: 1290px;
+}
+.table td {
+   padding: 10px 10px;  
+}
+.table td a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    line-height: 21.82px;
+}
+
+
+.pci{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.zero{
+    padding: 40px 0 ;
+}
+.zero img{
+    width: 243px;
+}
+.zero p{
+    width: 836px;
+    font-size: 12px;
+    line-height: 15.6px;
+    color: #AAAAAA;
+}
+
+
+@media(max-width:500px){
+    .header{
+        width:100%    
+    }
+    .nav{
+        position: relative;
+        left: 200px;
+    }
+    .nav-btn{
+        font-size: 16px;
+        width: 150px;
+        height: 50px;
+        
+    }
+    .page{
+    padding: 20px 20px;
+        margin: 0 auto;
+
+    }
+    .wrap{
+         width: 100%;   
+    }
+    .money p{
+     width: 400px;
+     font-size: 18px;
+    }
+    .money h1{
+        width: 400px;
+        font-size: 20px;
+    }
+    .img img{
+        width: 300px;
+        height: 300px;
+        
+    
+    }
+    .container .cachback{
+        width: 300px;
+     
+    }
+    .cachback h1{
+        font-size: 20px;
+        text-align:center ;
+    }
+    .partners img{
+        gap: 30px;
+    }
+   
+}
